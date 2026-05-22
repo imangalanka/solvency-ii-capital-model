@@ -1,5 +1,5 @@
-Lloyd’s Syndicate Solvency II Capital Model
-Overview
+# Lloyd’s Syndicate Solvency II Capital Model
+## Overview
 
 This project is a simplified Solvency II-style capital model built in R for a hypothetical Lloyd’s syndicate (“ABA 1234”).
 
@@ -14,7 +14,7 @@ The model is designed to demonstrate understanding of:
 The framework broadly follows the structure of the Solvency II Standard Formula while intentionally simplifying several components for transparency and educational purposes.
 
 
-Objectives
+## Objectives
 
 The project estimates:
 
@@ -25,7 +25,7 @@ The project estimates:
 
 These risk modules are aggregated using a two-step Standard Formula structure, premium and reserve risk are first combined into a Non-Life Underwriting module, which is then aggregated with Catastrophe and Market risk via a top-level correlation matrix.
 
-The final outputs include:
+## The final outputs include:
 
 - Total Solvency Capital Requirement (SCR)
 - Diversification benefit
@@ -70,14 +70,14 @@ Example Outputs
 - Diversification Benefit
 ![Diversification Benefit](charts/03_diversification_benefit.png)
 
-Technologies Used
+## Technologies Used
 
 R
 - ggplot2
 - dplyr
 - scales
 
-Simplifications and Limitations
+## Simplifications and Limitations
 
 This model is intentionally simplified and is not intended for regulatory or commercial use.
 
@@ -94,7 +94,7 @@ Key simplifications include:
 
 The project is intended as an educational and portfolio demonstration of actuarial modelling concepts.
 
-Potential Future Enhancements
+## Potential Future Enhancements
 
 Planned future developments may include:
 
@@ -105,7 +105,7 @@ Planned future developments may include:
 - Economic scenario generation
 - ORSA-style stress testing
 
-Motivation
+## Motivation
 
 I created this project to strengthen my understanding of:
 
