@@ -72,7 +72,7 @@ library(ggplot2)
 library(dplyr)
 library(scales)
 
-getwd()
+if (!dir.exists("charts")) dir.create("charts")
 
 
 # =============================================================================
