@@ -76,7 +76,7 @@ getwd()
 
 
 # =============================================================================
-# 1. SYNDICATE PROFILE — HYPOTHETICAL "ABC 1234"
+# 1. SYNDICATE PROFILE — HYPOTHETICAL "ABA 1234"
 # =============================================================================
 # We define a small-to-mid-size Lloyd's syndicate writing predominantly
 # Property and Casualty business. All figures in £millions.
