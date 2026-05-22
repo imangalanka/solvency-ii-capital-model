@@ -31,32 +31,33 @@ These risk modules are aggregated using a two-step Standard Formula structure, p
 - Diversification benefit
 - Solvency ratio
 - Risk visualisations
-- Key Features
-- Insurance Balance Sheet Construction
+
+## Key Features
+### Insurance Balance Sheet Construction
 - Best estimate liabilities (BEL)
 - Risk margin
 - Technical provisions
 - Own funds
-- Underwriting Risk
+### Underwriting Risk
 - Premium risk
 - Reserve risk
 - Line-of-business correlations
-- Catastrophe Risk
+### Catastrophe Risk
 - Simplified Reference Damage Scenario (RDS) approach
 - Reinsurance recoveries
-- Market Risk
+### Market Risk
 - Interest rate stress
 - Equity stress
 - Simplified ALM duration approach
-- SCR Aggregation
+### SCR Aggregation
 - Quadratic correlation aggregation
 - Diversification benefit analysis
-- Visualisation
+### Visualisation
 - SCR component analysis
 - Solvency position
 - Diversification impact
 
-Example Outputs
+## Example Outputs
 
 - Gross Risk Charges by Component
 ![Gross Risk Charges](charts/01a_gross_risk_charges.png)
@@ -72,10 +73,10 @@ Example Outputs
 
 ## Technologies Used
 
-R
-- ggplot2
-- dplyr
-- scales
+- R (v4.0+)
+ - ggplot2
+ - dplyr
+ - scales
 
 
 ## Simplifications and Limitations
