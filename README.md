@@ -77,6 +77,7 @@ R
 - dplyr
 - scales
 
+
 ## Simplifications and Limitations
 
 This model is intentionally simplified and is not intended for regulatory or commercial use.
@@ -114,3 +115,11 @@ I created this project to strengthen my understanding of:
 - and actuarial risk aggregation techniques.
 
 The project was also designed as part of my actuarial modelling portfolio while pursuing opportunities within the London Market / General Insurance sector.
+
+## How to Run
+
+### Run the model
+
+```bash
+Rscript solvency_ii_cap_model.R
+```
